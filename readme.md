@@ -120,7 +120,9 @@ python prunmodel_.py --plt_3d --layer_name 'conv1.weight'
 
 本项目通道剪枝详细原理：https://blog.csdn.net/z240626191s/article/details/130235286?spm=1001.2014.3001.5501
 
-注意：本项目现在仅仅支持卷积层的剪枝，后续会更新BN层以及其他类型网络。YOLO系列剪枝可以看我github
+注意：~~本项目现在仅仅支持卷积层的剪枝，后续会更新BN层以及其他类型网络~~。YOLO系列剪枝可以看我github
+
+2023.04.22更新：支持BN层，可对VGG网络进行剪枝
 
 
 
